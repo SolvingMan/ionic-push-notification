@@ -1,9 +1,6 @@
 # Ionic Push REST API via Node.js
 
-[![NPM version](http://img.shields.io/npm/v/ionic-push-server.svg)](https://www.npmjs.com/package/ionic-push-server)
-[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/benrondeau/Ionic-Push-Notification-NodeJS-Server?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
-
-Node.js server using [Ionic Push REST API](http://docs.ionic.io/docs/push-overview) to send push notifications on iOS and Android.
+Wrapper method for sending [Ionic Push REST API](http://docs.ionic.io/docs/push-overview) push notifications on iOS and Android.
 
 # Requirements
 - [NodeJS](https://nodejs.org/)
