@@ -1,5 +1,5 @@
 {
-  "name": "ionic-push",
+  "name": "ionic-push-notification",
   "version": "1.0.0",
   "description": "Ionic Push utility method wrapping an http call to the REST API",
   "main": "server.js",
