@@ -1,11 +1,13 @@
 {
   "name": "ionic-push-notification",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Ionic Push utility method wrapping an http call to the REST API",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "pretest": "node_modules/.bin/standard",
+    "precommit": "npm test",
+    "test": "echo \"Error: no test specified\""
   },
   "engineStrict": true,
   "engines": {
@@ -22,6 +24,13 @@
     "iOS",
     "push"
   ],
-  "author": "Ben Rondeau, @_benrondeau",
-  "license": "MIT"
+  "author": "C8Management",
+  "license": "MIT",
+  "dependencies": {
+    "debug": "^2.2.0"
+  },
+  "devDependencies": {
+    "husky": "^0.10.2",
+    "standard": "^5.4.1"
+  }
 }
